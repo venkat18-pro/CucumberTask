@@ -1,7 +1,9 @@
 Feature: Validation of order id in 
 
-Scenario: TC01_Validation of Order id
+Background:
 Given User launch web application
+
+Scenario: TC01_Validation of Order id
 When User enter the login and password
 And User clicks on login Button
 Then User verify Search Hotel page is displayed
@@ -18,7 +20,6 @@ Then User verify the Order No
 And Usre clicks on Logout Button
 
 Scenario Outline: TC02_Validation of Order id
-Given User launch web application
 When User enter the login and password
 And User clicks on login Button
 Then User verify Search Hotel page is displayed
